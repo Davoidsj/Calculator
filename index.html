@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="shortcut icon" href="https://e7.pngegg.com/pngimages/216/55/png-clipart-scientific-calculator-icon-calculator-electronics-digital.png" type="image/x-icon">
+
+   
+</head>
+
+<body>
+
+    <h1>
+
+    Calculator
+
+    </h1>
+
+    <form name="calculator">
+
+<fieldset id="calc-device">
+
+<div>
+
+<input type="text" name="display" id="display" maxlength="30" class="calc-head" placeholder="0" readonly>
+
+</div>
+
+<br>
+
+<div>
+
+
+
+<input type="button" class="button-text" name="seven" id="seven" value="7" onclick="calculator.display.value +='7' ">
+
+<input type="button" class="button-text" name="eight" id="eight" value="8" onclick="calculator.display.value += '8' ">
+
+<input type="button" class="button-text" name="nine" id="nine" value="9" onclick="calculator.display.value +='9'">
+
+<input type="button" class="button-text button-color" name="division" id="division" value="/" onclick="calculator.display.value +='/'">
+
+</div>
+
+
+
+<br>
+
+
+
+<div>
+
+    <input type="button" class="button-text" name="four" id="four" value="4" onclick="calculator.display.value +='4' ">
+
+    <input type="button" class="button-text" name="five" id="five" value="5" onclick="calculator.display.value += '5' ">
+
+    <input type="button" class="button-text" name="six" id="six" value="6" onclick="calculator.display.value += '6' ">
+
+    <input type="button" class="button-text button-color" name="multiplication" id="multiplication" value="X" onclick="calculator.display.value += '*' ">
+
+
+
+
+
+</div>
+
+<br>
+
+<div>
+
+    <input type="button" class="button-text" name="one" id="one" value="1" onclick="calculator.display.value += '1' ">
+
+    <input type="button" class="button-text" name="two" id="two" value="2" onclick="calculator.display.value += '2' ">
+
+    <input type="button" class="button-text" name="three" id="three" value="3" onclick="calculator.display.value += '3' ">
+
+    <input type="button" class="button-text button-color" name="subtraction" id="subtraction" value="-" onclick="calculator.display.value += '-' " >
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<br>
+
+
+
+<div>
+
+    <input type="button" class="button-text" name="clear" id="clear" value="C" onclick="calculator.display.value = '' " style="background-color: rgb(235, 8, 8);">
+
+    <input type="button" class="button-text" name="zero" id="zero" value="0" onclick="calculator.display.value+='0'">
+
+    <input type="button" class="button-text" name="equal" id="equal" value="=" onclick="calculator.display.value=eval(calculator.display.value)" style="background-color:#ec4848">
+
+    <input type="button" class="button-text button-color" name="addition" id="addition" value="+" onclick="calculator.display.value += '+' ">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+    
+
+</body>
+
+</html>s
